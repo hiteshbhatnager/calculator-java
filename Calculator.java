@@ -8,7 +8,14 @@ public class Calculator {
     int boardWidth = 360;
     int boardHeight = 540;
 
+    Color lightGray = new Color(212, 212, 210);
+    Color lightDark = new Color(80, 80, 80);
+    Color black = new Color(28, 28, 28);
+    Color orange = new Color(255, 149, 0);
+
     JFrame frame = new JFrame("Calculator");
+    JLabel displayLabel = new JLabel();
+    JPanel displayPanle = new JPanel();
 
     Calculator() {
         frame.setVisible(true);
